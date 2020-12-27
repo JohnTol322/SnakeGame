@@ -28,7 +28,8 @@ const columns = canvas.width / scale;
         }
 
         snake.checkCollision();
-        document.querySelector(".score").innerHTML = "score: " + snake.total;
+        document.querySelector("#score").innerHTML = "score: " + snake.total;
+        document.querySelector("#highscore").innerHTML = "highscore: " + snake.highscore;
     }, 150);
 }());
 
