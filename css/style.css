@@ -1,24 +1,31 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    background: linear-gradient(to right,green, rgb(32, 83, 32));
+body {
+  background: linear-gradient(to right, green, rgb(32, 83, 32));
 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
 }
 
-h1{
-    color: #FFFFFF;
-    font-family: 'Architects Daughter', cursive;
-    font-weight: bold;
+h1 {
+  color: #ffffff;
+  font-family: "Architects Daughter", cursive;
+  font-weight: bold;
 }
 
-.canvas{
-    border: 3px solid cornsilk;
+#scores {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.canvas {
+  border: 3px solid cornsilk;
 }

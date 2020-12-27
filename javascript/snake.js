@@ -5,6 +5,7 @@ function Snake(){
     this.ySpeed = 0;
     this.total = 0;
     this.tail = [];
+    this.highscore = 0;
     left = false;
     right = true;
     up = false;
@@ -177,6 +178,9 @@ function Snake(){
     }
 
     this.die = function(){
+        if(this.total > this.highscore){
+            this.highscore = this.total;
+        }
         this.total = 0;
         this.tail = [];
         this.x = scale;
