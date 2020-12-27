@@ -5,8 +5,9 @@
 }
 
 body {
-  background: linear-gradient(to right, green, rgb(32, 83, 32));
-
+  /*background: linear-gradient(to right, green, rgb(32, 83, 32));*/
+  background-image: url(../images/snakewp.jpg);
+  background-size: cover;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -28,4 +29,6 @@ h1 {
 
 .canvas {
   border: 3px solid cornsilk;
+  background-image: url(../images/grid.jpg);
+  background-size: 30px;
 }
