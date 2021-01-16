@@ -5,7 +5,7 @@
 }
 
 body {
-  /*background: linear-gradient(to right, green, rgb(32, 83, 32));*/
+  background: linear-gradient(to right, green, rgb(32, 83, 32));
   background-image: url(../images/snakewp.jpg);
   background-size: cover;
   display: flex;
